@@ -10,7 +10,6 @@ header nav {
   flex: auto;
 }
 
-
 .logo {
   width: 80px;
   text-align: center;
@@ -35,6 +34,9 @@ header nav {
   text-decoration: none;
   color: #e0e0e0;
   font-weight: 500;
+}
+img {
+    width: 200px;
 }
 
 <<<<<<< HEAD
@@ -68,5 +70,4 @@ header nav {
 
 }
 =======
-
 >>>>>>> 8c6eccd59970a9fb39f55341d3c304be760281b5
