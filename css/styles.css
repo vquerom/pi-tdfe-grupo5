@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 header {
   display: flex;
   flex-direction: row;
@@ -32,4 +31,29 @@ header {
 .navegation a:hover {
   color: #7b68ee;
 }
->>>>>>> ae403648872e19748612662d9e702ffa2f5f9a43
+.login{
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+    
+}
+.buttonlog{
+    text-decoration: none;
+    border-radius: 4px;
+    border-color: #1a1a2e;
+}
+.Registrate{
+    text-decoration: none;
+}
+.h2{
+    font-family:Arial, Helvetica, sans-serif;
+   color:rgb(2, 2, 55) ;
+}
+.loginbody{
+    background-color: rgb(140, 170, 219);
+}
+.Registrate{
+    font-family:Arial, Helvetica, sans-serif;
+   color:rgb(2, 2, 55) ;
+
+}
