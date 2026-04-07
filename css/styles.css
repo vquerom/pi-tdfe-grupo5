@@ -1,24 +1,32 @@
-<<<<<<< HEAD
-=======
+
 header {
   display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 16px 24px;
   background-color: #1a1a2e;
 }
 
+header nav {
+  flex: auto;
+}
+
+
 .logo {
   width: 80px;
-  margin-bottom: 12px;
+  text-align: center;
+  flex: auto;
+}
 
+.searchForm {
+  flex: auto;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navegation {
   display: flex;
-  flex-direction: row;
   list-style: none;
-  justify-content: space-between;
+  gap: 16px;
   margin: 0;
   padding: 0;
 }
@@ -29,7 +37,4 @@ header {
   font-weight: 500;
 }
 
-.navegation a:hover {
-  color: #7b68ee;
-}
->>>>>>> ae403648872e19748612662d9e702ffa2f5f9a43
+
