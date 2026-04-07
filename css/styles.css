@@ -36,8 +36,6 @@ header nav {
   color: #e0e0e0;
   font-weight: 500;
 }
-
-<<<<<<< HEAD
 .navegation a:hover {
   color: #7b68ee;
 }
@@ -54,6 +52,8 @@ header nav {
 }
 .Registrate{
     text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+   color:rgb(2, 2, 55) ;
 }
 .h2{
     font-family:Arial, Helvetica, sans-serif;
@@ -62,11 +62,31 @@ header nav {
 .loginbody{
     background-color: rgb(140, 170, 219);
 }
-.Registrate{
-    font-family:Arial, Helvetica, sans-serif;
-   color:rgb(2, 2, 55) ;
+.reg{
+  display: flex;
+    align-items:center ;
+    flex-direction: column;
 
 }
-=======
-
->>>>>>> 8c6eccd59970a9fb39f55341d3c304be760281b5
+.h2r{
+  font-family:Arial, Helvetica, sans-serif;
+   color:rgb(2, 2, 55) ;
+}
+.Regist{
+  text-decoration: none;
+   font-family:Arial, Helvetica, sans-serif;
+   color:rgb(2, 2, 55) ;
+}
+.cuenta{
+  text-decoration: none;
+   font-family:Arial, Helvetica, sans-serif;
+   color:rgb(2, 2, 55) ;
+}
+.bodyreg{
+  background-color: rgb(140, 170, 219);
+}
+.terminos{
+  text-decoration: none;
+   font-family:Arial, Helvetica, sans-serif;
+   color:rgb(2, 2, 55) ;
+}
