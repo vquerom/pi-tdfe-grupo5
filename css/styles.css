@@ -1,0 +1,35 @@
+<<<<<<< HEAD
+=======
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px;
+  background-color: #1a1a2e;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 12px;
+
+}
+
+.navegation {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.navegation a {
+  text-decoration: none;
+  color: #e0e0e0;
+  font-weight: 500;
+}
+
+.navegation a:hover {
+  color: #7b68ee;
+}
+>>>>>>> ae403648872e19748612662d9e702ffa2f5f9a43
