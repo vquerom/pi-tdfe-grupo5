@@ -1,23 +1,32 @@
 
 header {
   display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 16px 24px;
   background-color: #1a1a2e;
 }
 
+header nav {
+  flex: auto;
+}
+
+
 .logo {
   width: 80px;
-  margin-bottom: 12px;
+  text-align: center;
+  flex: auto;
+}
 
+.searchForm {
+  flex: auto;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navegation {
   display: flex;
-  flex-direction: row;
   list-style: none;
-  justify-content: space-between;
+  gap: 16px;
   margin: 0;
   padding: 0;
 }
@@ -28,6 +37,7 @@ header {
   font-weight: 500;
 }
 
+<<<<<<< HEAD
 .navegation a:hover {
   color: #7b68ee;
 }
@@ -57,3 +67,6 @@ header {
    color:rgb(2, 2, 55) ;
 
 }
+=======
+
+>>>>>>> 8c6eccd59970a9fb39f55341d3c304be760281b5
