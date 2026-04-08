@@ -163,3 +163,23 @@ Footer{
   color: rgb(140, 170, 219);
 }
 
+.container{
+margin: 2px;
+}
+article{
+   width: 380px;
+}
+.Lapt{
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.h2index{
+  text-align: center;
+  background-color:rgb(2, 2, 55) ;
+  color: rgb(212, 222, 239);
+  
+}
+.bodyindex{
+  background-color: rgb(212, 222, 239);
+}
