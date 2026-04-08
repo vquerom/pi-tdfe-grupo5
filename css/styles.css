@@ -40,6 +40,7 @@ header nav {
 .navegation a:hover {
   color: #7b68ee;
 }
+ 
 .login{
     display: flex;
     align-items:center ;
