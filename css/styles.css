@@ -194,3 +194,27 @@ img{
   height: 175px
   ;
 }
+
+/*   ||||categoria anteojos|||| */
+.contenedor2{
+  margin: 2px;
+margin-bottom: 3px;
+}
+.anteojos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.h2anteojos{
+   text-align: center;
+  background-color:rgb(2, 2, 55) ;
+  color: rgb(212, 222, 239);
+}
+.bodycategory{
+  background-color: rgb(212, 222, 239);
+}
+.anteojosimg{
+   width: 250px;
+  height: 175px
+  ;
+}
