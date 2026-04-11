@@ -4,51 +4,65 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/styles.css">
-  <title>Document.</title>
+  <title>Login</title>
 </head>
 <body class="loginbody">
 
-   <header class="loginf">
-    <a href="index.html">
+  <main>
+
+    <header>
+  <nav>
+    <ul class="navegation">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./login.html">Login</a></li>
+      <li><a href="./register.html">Registro</a></li>
+      <li><a href="./category.html">Categorías</a></li>
+      <li><a href="./search-results.html">Resultados</a></li>
+      <li><a href="./product.html">Producto</a></li>
+    </ul>
+  </nav>
+
+  <a href="index.html" class="logoLink">
     <img src="./img/logo.png" alt="logo" class="logo">
   </a>
-    <nav>
-      <ul class="navegation">
-        <li> <a href="./index.html">Home</a></li>
-        <li> <a href="./login.html">Login</a></li>
-        <li> <a href="./register.html">Registro</a></li>
-        <li><a href="./category.html">Categorías</a></li>
-        <li><a href="./search-results.html">Resultados</a></li>
-        <li><a href="./product.html">Producto</a></li>
-      </ul>
-    </nav>
-   
-  </header>
 
-  <main>
-    <form action="index.html" method="get" class="login">
-   <div>
+  <form class="searchForm" action="./search-results.html" method="get">
+    <input type="text" name="producto" placeholder="Buscar productos...">
+    <button type="submit">Buscar</button>
+  </form>
+</header>
+
+<form action="index.html" method="get" class="login">
+  <div>
     <h2 class="h2">Log In</h2>
-   </div>
-      <div> 
-      
-      <input type="email" name="mail" id="" placeholder="Escribir tu email con @ y ." class="Email">
-    </div>
-    <div>
-      
-      <input type="password" name="contraseña" id="" placeholder="Escribi tu contraseña" class="contrase">
-    </div>
-    <br>
-    <div>
-      <button type="submit"><a href="./index.html" class="buttonlog">Ingresar</a></button>
-    </div>
-    <br>
-    <div>
-      <a href="./register.html" class="Registrate">Registrate aqui</a>
-    </div>
-    </form>
+  </div>
+
+  <div>
+    <input type="email" name="mail" placeholder="Escribe tu email con @ y ." class="Email">
+  </div>
+
+  <div>
+    <input type="password" name="contraseña" placeholder="Escribe tu contraseña" class="contrase">
+  </div>
+
+  <br>
+
+  <div>
+    <button type="submit" class="buttonlog">Ingresar</button>
+  </div>
+
+  <br>
+
+  <div>
+    <a href="./register.html" class="Registrate">Registrate aqui</a>
+  </div>
+</form>
 
   </main>
+
+
+
+  
 <br>
 <br>
 <br>

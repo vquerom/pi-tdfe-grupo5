@@ -1,24 +1,19 @@
+main {
+  background-color:rgb(177, 203, 246);
+}
+
 /* ||HEADER|| */
 
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 16px 24px;
   background-color: #1a1a2e;
 }
 
-
-
-
-/* LOGO */
-
-.logo {
-  width: 120px;
-  height: 100px;
+header nav {
+  width: 33.33%;
 }
-
-
 
 /* NAV */
 
@@ -43,43 +38,120 @@ header {
   color: #7b68ee;
 }
 
- 
-.login{
-    display: flex;
-    align-items:center ;
-    flex-direction: column;
-    
-}
-.buttonlog{
-    text-decoration: none;
-    border-radius: 4px;
-    border-color: #1a1a2e;
-}
-.Registrate{
-    text-decoration: none;
-    font-family:Arial, Helvetica, sans-serif;
-   color:rgb(2, 2, 55) ;
-}
-.h2{
-    font-family:Arial, Helvetica, sans-serif;
-   color:rgb(2, 2, 55) ;
-}
-.loginbody{
-    background-color: rgb(140, 170, 219);
-}
-.reg{
-  display: flex;
-    align-items:center ;
-    flex-direction: column;
+/* LOGO */
+
+.logoLink {
+  width: 33.33%;
+  text-align: center;
 }
 
+.logo {
+  width: 120px;
+  height: 100px;
+}
 
 /* SEARCH */
 
 .searchForm {
+  width: 33.33%;
   display: flex;
   justify-content: flex-end;
 }
+
+.searchForm input {
+  padding: 6px 10px;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  outline: none;
+}
+
+.searchForm button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #7b68ee;
+  color: white;
+  border-radius: 0 4px 4px 0;
+}
+/* ||||LOGIN||| */
+ 
+.login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loginbody {
+  background-color: rgb(140, 170, 219);
+}
+
+.h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(2, 2, 55);
+}
+
+.login input {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  margin-bottom: 12px;
+  width: 220px;
+}
+
+.buttonlog {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #7b68ee;
+  color: white;
+  width: 220px;
+}
+
+.Registrate {
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  margin-top: 12px;
+  text-decoration: underline;
+}
+
+.reg {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+/* ||||ASIDE|||| */
+
+.aside {
+  width: 220px;
+  margin-right: 30px;
+  padding-right: 20px;
+}
+
+.aside ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.aside li {
+  margin-bottom: 15px;
+}
+
+.aside a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.aside a:hover {
+  color: #7b68ee;
+}
+
+
 
 /* Termina el HEADER */
 
@@ -107,7 +179,6 @@ header {
 }
 
 .Registrate {
-  text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(2, 2, 55);
 }
@@ -144,22 +215,46 @@ header {
   color: rgb(2, 2, 55);
 }
 
+.reg input {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  margin-bottom: 12px;
+  width: 220px;
+}
+
 .Regist {
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(2, 2, 55);
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #7b68ee;
+  color: white;
+  width: 220px;
 }
 
 .cuenta {
-  text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(2, 2, 55);
 }
 
+.checkTerminos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  width: auto;
+}
+
+.checkTerminos input {
+  width: auto;
+  margin-bottom: 0;
+}
+
 .terminos {
-  text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(2, 2, 55);
+  margin-right: 8px;
 }
 
 
@@ -173,12 +268,21 @@ Footer{
   color: rgb(140, 170, 219);
 }
 
+
+/* ||||INDEX||| */
+
 .container{
 margin: 2px;
 margin-bottom: 3px;
 }
 article{
    width: 380px;
+   margin: 10px;
+}
+
+.imageHome{
+  width: 100%;
+  
 }
 .Lapt{
  display: flex;
@@ -205,33 +309,48 @@ img{
 }
 
 /*   ||||categoria anteojos|||| */
-.contenedor2{
+.contenedor2 {
   margin: 2px;
-margin-bottom: 3px;
+  margin-bottom: 3px;
 }
-.anteojos{
+
+.anteojos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.h2anteojos{
-   text-align: center;
-  background-color:rgb(2, 2, 55) ;
+
+.anteojos article {
+  width: 380px;
+  margin: 10px;
+}
+
+.h2anteojos {
+  text-align: center;
+  background-color: rgb(2, 2, 55);
   color: rgb(212, 222, 239);
 }
-.bodycategory{
+
+.bodycategory {
   background-color: rgb(212, 222, 239);
 }
-.anteojosimg{
-   width: 250px;
-  height: 175px
-  ;
+
+.anteojosimg {
+  width: 100%;
+}
+
+.anteojos article h3 {
+  margin: 5px 0;
+}
+
+.anteojos article {
+  margin: 5px 0;
 }
 /*  product  */
 .product{
+  display: flex;
   flex-direction: column;
   align-items: center;
-  display: flex;
   text-align: center;
    justify-content: space-between;
 }
