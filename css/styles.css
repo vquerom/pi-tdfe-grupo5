@@ -68,6 +68,7 @@ header nav {
   padding: 6px 12px;
   border: none;
   background-color: #7b68ee;
+  cursor: pointer;
   color: white;
   border-radius: 0 4px 4px 0;
 }
