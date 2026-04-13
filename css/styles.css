@@ -1,5 +1,6 @@
 body {
   background-color: rgb(212, 222, 239);
+  margin: 0;
 }
 
 /* ||HEADER|| */
@@ -8,7 +9,7 @@ header {
   display: flex;
   align-items: center;
   padding: 16px 24px;
-  background-color: #1a1a2e;
+  background-color: #083b4c;
 }
 
 header nav {
@@ -267,10 +268,15 @@ Footer{
 .container{
 margin: 2px;
 margin-bottom: 3px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
 }
 article{
-   width: 380px;
+  
+   width: 250px;
    margin: 10px;
+
 }
 
 .imageHome{
@@ -280,7 +286,8 @@ article{
 .Lapt{
  display: flex;
   flex-wrap:wrap;
-  width: 70%;
+  width: 80%;
+  
   
 }
 .h2index{
