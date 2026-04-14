@@ -387,8 +387,42 @@ article{
   flex-wrap:wrap;
   width: 80%;
   gap: 15px;
-  
-  
 }
+
+header nav {
+  width: 30%;
+}
+.navegation {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+ 
+}
+.navegation li {
+  margin-bottom: 8px;
+}
+.logoLink {
+  width: 20.33%;
+  text-align: center;
+}
+.searchForm {
+  
+  display: flex;
+  height: auto;
+  margin-left: auto;
+}
+.searchForm input {
+  width: 30%;
+  padding: 6px 10px;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  font-size: 5px;
+}
+
+
+
 
 }
