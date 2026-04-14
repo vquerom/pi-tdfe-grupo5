@@ -291,11 +291,7 @@ article{
   
   
 }
-.h2index{
-  text-align: center;
-  color: rgb(212, 222, 239);
-  
-}
+
 .bodyindex{
   background-color: rgb(212, 222, 239);
 }
@@ -367,6 +363,32 @@ img{
   font-size: small;
   font-family: Arial, Helvetica, sans-serif;
 }
-@media (max-width: 420px) {
+@media (max-width: 425px) {
+  .container{
+margin: 2px;
+margin-bottom: 3px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+article{
   
+   width: 280px;
+   margin: 10px;
+
+}
+
+.imageHome{
+  width: 100%;
+  
+}
+.Lapt{
+ display: flex;
+  flex-wrap:wrap;
+  width: 80%;
+  gap: 15px;
+  
+  
+}
+
 }
