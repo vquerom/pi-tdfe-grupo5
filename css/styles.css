@@ -110,11 +110,13 @@ header nav {
   width: 220px;
 }
 
+
 .Registrate {
   font-family: Arial, Helvetica, sans-serif;
   color: blue;
   margin-top: 12px;
 }
+
 
 .reg {
   display: flex;
@@ -204,7 +206,23 @@ header nav {
 .reg {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; 
+
+}
+.Registrarme{
+   text-decoration: none;
+  border-radius: 4px;
+  border-color: #1a1a2e;
+  width: 70px;
+  margin-bottom: 1px;
+}
+.cuenta{
+    
+align-items: center;
+  border-color: #1a1a2e;
+  margin-top: 9px;
+ 
+ 
 }
 
 
@@ -294,7 +312,7 @@ article{
 .Lapt{
  display: flex;
   flex-wrap:wrap;
-  width: 80%;
+  width: 75%;
   gap: 15px;
   
   
