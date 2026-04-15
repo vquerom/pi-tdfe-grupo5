@@ -1,7 +1,12 @@
 body {
   background-color: rgb(212, 222, 239);
-  margin: 0;
+  margin: 0;    
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
+
 
 /* ||HEADER|| */
 
@@ -255,11 +260,14 @@ header nav {
 
 
 /* ||||Footer|||| */
-Footer{
-   text-decoration: none;
+footer {
+  text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
- background-color:rgb(2, 2, 55) ;
-  color: rgb(140, 170, 219);
+  background-color: #083b4c;
+  color: #e0e0e0;
+  padding: 16px 24px;
+  text-align: center;
+  margin-top: auto;
 }
 
 
@@ -387,8 +395,42 @@ article{
   flex-wrap:wrap;
   width: 80%;
   gap: 15px;
-  
-  
 }
+
+header nav {
+  width: 30%;
+}
+.navegation {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+ 
+}
+.navegation li {
+  margin-bottom: 8px;
+}
+.logoLink {
+  width: 20.33%;
+  text-align: center;
+}
+.searchForm {
+  
+  display: flex;
+  height: auto;
+  margin-left: auto;
+}
+.searchForm input {
+  width: 30%;
+  padding: 6px 10px;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  font-size: 5px;
+}
+
+
+
 
 }
