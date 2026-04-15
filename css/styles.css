@@ -378,11 +378,16 @@ margin-bottom: 3px;
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
+
+
 }
 article{
   
-   width: 280px;
-   margin: 10px;
+   width: 70%;
+   margin-left: 35px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   margin-top: 10px;
 
 }
 
@@ -430,6 +435,13 @@ header nav {
   font-size: 5px;
 }
 
+.aside ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  
+}
 
 
 
