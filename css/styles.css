@@ -101,7 +101,7 @@ header nav {
   width: 220px;
 }
 
-.buttonlog {
+.buttonLog {
   padding: 8px 12px;
   border: none;
   border-radius: 4px;
@@ -111,7 +111,7 @@ header nav {
 }
 
 
-.Registrate {
+.registrate {
   font-family: Arial, Helvetica, sans-serif;
   color: blue;
   margin-top: 12px;
@@ -170,18 +170,18 @@ header nav {
 }
 
 
-.loginbody {
+.loginBody {
   background-color: rgb(212, 222, 239);
 }
 
-.buttonlog {
+.buttonLog {
   text-decoration: none;
   border-radius: 4px;
   border-color: #1a1a2e;
   width: 70px;
 }
 
-.Registrate {
+.registrate {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(2, 2, 55);
 }
@@ -190,7 +190,7 @@ header nav {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(2, 2, 55);
 }
-.Email{
+.email{
   width: 200px;
   height: 30px;
 }
@@ -209,7 +209,7 @@ header nav {
   flex-direction: column; 
 
 }
-.Registrarme{
+.registrarme{
    text-decoration: none;
   border-radius: 4px;
   border-color: #1a1a2e;
@@ -241,7 +241,7 @@ align-items: center;
   width: 220px;
 }
 
-.Regist {
+.regist {
   padding: 8px 12px;
   border: none;
   border-radius: 4px;
@@ -309,7 +309,7 @@ article{
   width: 100%;
   
 }
-.Lapt{
+.lapt{
  display: flex;
   flex-wrap:wrap;
   width: 75%;
@@ -318,7 +318,7 @@ article{
   
 }
 
-.bodyindex{
+.bodyIndex{
   background-color: rgb(212, 222, 239);
 }
 p{
@@ -347,17 +347,17 @@ img{
   margin: 10px;
 }
 
-.h2anteojos {
+.h2Anteojos {
   text-align: center;
   background-color: rgb(2, 2, 55);
   color: rgb(212, 222, 239);
 }
 
-.bodycategory {
+.bodyCategory {
   background-color: rgb(212, 222, 239);
 }
 
-.anteojosimg {
+.anteojosImg {
   width: 100%;
 }
 
@@ -378,7 +378,7 @@ img{
    
 }
 
-.Mc14{
+.mc14{
   color: rgb(212, 222, 239);
 }
 .comentarios{
@@ -413,7 +413,7 @@ article{
   width: 100%;
   
 }
-.Lapt{
+.lapt{
  display: flex;
   flex-wrap:wrap;
   width: 80%;
