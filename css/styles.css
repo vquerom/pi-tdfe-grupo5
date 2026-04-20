@@ -443,6 +443,20 @@ img {
   font-size: small;
   font-family: Arial, Helvetica, sans-serif;
 }
+.tags {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.tags li {
+  margin-right: 16px;
+  text-align: center;
+
+}
+
 
 @media (max-width: 425px) {
   .container {
@@ -453,18 +467,7 @@ img {
     flex-wrap: wrap;
 
 
-<<<<<<< HEAD
-}
-article{
-  
-   width: 70%;
-   margin-left: 55px;
-   margin-right: 10px;
-   margin-bottom: 10px;
-   margin-top: 10px;
-=======
   }
->>>>>>> 663870f1d0f2e98174fcb32a9b56c813b0abdcd9
 
   article {
 
