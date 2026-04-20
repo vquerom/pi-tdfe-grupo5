@@ -102,7 +102,7 @@ header nav {
   width: 220px;
 }
 
-.buttonlog {
+.buttonLog {
   padding: 8px 12px;
   border: none;
   border-radius: 4px;
@@ -112,8 +112,12 @@ header nav {
 }
 
 
-.Registrate {
+
+ 
   /*editar*/
+
+.registrate {
+
   font-family: Arial, Helvetica, sans-serif;
   color: blue;
   margin-top: 12px;
@@ -172,21 +176,32 @@ header nav {
 }
 
 
+
 .loginbody {
   /*editar*/
   background-color: rgb(212, 222, 239);
 }
 
-.buttonlog {
   /*editar*/
+
+.loginBody {
+  background-color: rgb(212, 222, 239);
+}
+
+.buttonLog {
+
   text-decoration: none;
   border-radius: 4px;
   border-color: #1a1a2e;
   width: 70px;
 }
 
-.Registrate {
+
+
   /*editar*/
+
+.registrate {
+
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(2, 2, 55);
 }
@@ -196,7 +211,11 @@ header nav {
   color: rgb(2, 2, 55);
 }
 
-.Email {
+
+
+
+.email{
+
   width: 200px;
   height: 30px;
 }
@@ -217,9 +236,11 @@ header nav {
 
 }
 
-.Registrarme {
-  text-decoration: none;
-  border-radius: 4px;
+
+
+
+.registrarme{
+   text-decoration: none;
   border-color: #1a1a2e;
   width: 70px;
   margin-bottom: 1px;
@@ -251,7 +272,7 @@ header nav {
   width: 220px;
 }
 
-.Regist {
+.regist {
   padding: 8px 12px;
   border: none;
   border-radius: 4px;
@@ -319,6 +340,7 @@ article {
 .imageHome {
   width: 100%;
 
+
 }
 
 .Lapt {
@@ -331,6 +353,20 @@ article {
 }
 
 .bodyindex {
+
+  
+}
+.lapt{
+ display: flex;
+  flex-wrap:wrap;
+  width: 75%;
+  gap: 15px;
+  
+  
+}
+
+.bodyIndex{
+
   background-color: rgb(212, 222, 239);
 }
 
@@ -360,17 +396,17 @@ img {
   margin: 10px;
 }
 
-.h2anteojos {
+.h2Anteojos {
   text-align: center;
   background-color: rgb(2, 2, 55);
   color: rgb(212, 222, 239);
 }
 
-.bodycategory {
+.bodyCategory {
   background-color: rgb(212, 222, 239);
 }
 
-.anteojosimg {
+.anteojosImg {
   width: 100%;
 }
 
@@ -392,7 +428,9 @@ img {
 
 }
 
-.Mc14 {
+
+
+.mc14{
   color: rgb(212, 222, 239);
 }
 
@@ -424,6 +462,17 @@ img {
     margin-right: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
+
+.imageHome{
+  width: 100%;
+  
+}
+.lapt{
+ display: flex;
+  flex-wrap:wrap;
+  width: 80%;
+  gap: 15px;
+}
 
   }
 
