@@ -40,7 +40,17 @@ fetch('https://dummyjson.com/products/' + productId)
         productCategory.href = './category.html?category=' + data.category;
         productStock.innerText = data.stock + ' unidades disponibles';
 
-       
+        for (let i = 0; i < data.tags.length && i < 3; i++) {
+
+            productTags.innerHTML += `
+                <li>
+                    <a href="./category.html?category=${data.category}">
+                        #${data.tags[i]}
+                    </a>
+                </li>
+            `;
+
+        }
 
     })
     .catch(function(error) {
