@@ -333,6 +333,20 @@ img {
   text-align: center;
 }
 
+.productName {
+  color: rgb(2, 2, 55);
+}
+
+.productBrand {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(2, 2, 55);
+}
+
+.productImage {
+  width: 250px;
+  height: 175px;
+}
+
 /* ||| SEARCH RESULTS */
 
 .legend {
@@ -341,10 +355,6 @@ img {
   text-align: center;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.mc14 {
-  color: rgb(212, 222, 239);
 }
 
 .comments {
