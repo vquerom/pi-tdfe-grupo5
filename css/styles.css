@@ -6,8 +6,6 @@ body {
   min-height: 100vh;
 }
 
-
-
 /* ||HEADER|| */
 
 header {
@@ -91,8 +89,6 @@ header nav {
   margin-bottom: 12px;
 }
 
-
-
 .sectionTitle {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(2, 2, 55);
@@ -115,23 +111,17 @@ header nav {
   width: 220px;
 }
 
-
-
-
 .register {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(2, 2, 55);
   margin-top: 12px;
 }
 
-
 .reg {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-
-
 
 /* ||||ASIDE|||| */
 
@@ -161,23 +151,13 @@ header nav {
   color: #7b68ee;
 }
 
-
-
 /* Termina el HEADER */
-
-
-
 
 .loginBody {
   background-color: rgb(212, 222, 239);
 }
 
-
-
-
-
-.email{
-
+.email {
   width: 200px;
   height: 30px;
 }
@@ -187,12 +167,7 @@ header nav {
   height: 30px;
 }
 
-
-
 /* ||||REGISTER|||| */
-
-
-
 
 .h2Register {
   font-family: Arial, Helvetica, sans-serif;
@@ -243,10 +218,8 @@ header nav {
   margin-right: 8px;
 }
 
-
-
-
 /* ||||Footer|||| */
+
 footer {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -256,7 +229,6 @@ footer {
   text-align: center;
   margin-top: auto;
 }
-
 
 /* ||||INDEX||| */
 
@@ -268,29 +240,30 @@ footer {
   flex-wrap: wrap;
 }
 
-article {
+.products {
+  width: 75%;
+}
 
+.groceries {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kitchenAccessories {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
   width: 280px;
   margin: 10px;
-
 }
 
 .imageHome {
   width: 100%;
-
-
 }
 
-.laptops{
- display: flex;
-  flex-wrap:wrap;
-  width: 75%;
-
-
-}
-
-.bodyIndex{
-
+.bodyIndex {
   background-color: rgb(212, 222, 239);
 }
 
@@ -311,6 +284,7 @@ img {
 }
 
 /*   ||||sunglasses category|||| */
+
 .containerCategory {
   margin: 2px;
   margin-bottom: 3px;
@@ -351,6 +325,7 @@ img {
 }
 
 /*  product  */
+
 .product {
   display: flex;
   flex-direction: column;
@@ -360,17 +335,15 @@ img {
 
 /* ||| SEARCH RESULTS */
 
-.legend{
+.legend {
   width: 75%;
   margin-left: 25%;
   text-align: center;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-
 }
 
-
-.mc14{
+.mc14 {
   color: rgb(212, 222, 239);
 }
 
@@ -384,6 +357,7 @@ img {
   font-family: Arial, Helvetica, sans-serif;
   max-width: 600px;
 }
+
 .tags {
   display: flex;
   list-style: none;
@@ -395,9 +369,7 @@ img {
 .tags li {
   margin-right: 16px;
   text-align: center;
-
 }
-
 
 @media (max-width: 425px) {
   .container {
@@ -406,8 +378,6 @@ img {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
-
   }
 
   article {
@@ -418,15 +388,23 @@ img {
     margin-top: 10px;
   }
 
-.imageHome{
-  width: 100%;
-  
-}
-.laptops{
- display: flex;
-  flex-wrap:wrap;
-  width: 80%;
-}
+  .imageHome {
+    width: 100%;
+  }
+
+  .products {
+    width: 80%;
+  }
+
+  .groceries {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .kitchenAccessories {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
   header nav {
     width: 30%;
@@ -439,7 +417,6 @@ img {
     flex-direction: column;
     margin: 0 auto;
     padding: 0;
-
   }
 
   .navigation li {
@@ -452,7 +429,6 @@ img {
   }
 
   .searchForm {
-
     display: flex;
     height: auto;
     margin-left: auto;
@@ -471,7 +447,5 @@ img {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-
   }
-
 }
