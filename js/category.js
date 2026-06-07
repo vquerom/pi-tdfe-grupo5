@@ -1,11 +1,13 @@
 let queryString = location.search;
 let queryStringObj = new URLSearchParams(queryString);
+
 let categoryName = queryStringObj.get('category');
+let categoryTitleText = queryStringObj.get('title');
 
 let categoryTitle = document.querySelector('.categoryTitle');
 let categoryProducts = document.querySelector('.categoryProducts');
 
-categoryTitle.innerText = categoryName;
+categoryTitle.innerText = categoryTitleText;
 
 fetch('https://dummyjson.com/products/category/' + categoryName)
     .then(function(response) {
@@ -29,10 +31,10 @@ fetch('https://dummyjson.com/products/category/' + categoryName)
                         </a>
                     </p>
                 </article>`;
-
-        }
+        
+              }
 
     })
     .catch(function(error) {
-        console.log(error);
+        console.log('El error es: ' + error);
     });
