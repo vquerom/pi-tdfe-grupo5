@@ -293,36 +293,38 @@ img {
   flex-wrap: wrap;
 }
 
-.sunglasses {
+.categoryProducts {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 75%;
 }
 
-.sunglasses article {
+.categoryProducts article {
   width: 280px;
   margin: 10px;
 }
 
-.h2Sunglasses {
+.categoryTitle {
   width: 100%;
   text-align: center;
   background-color: rgb(2, 2, 55);
   color: rgb(212, 222, 239);
 }
 
+.categoryProducts img {
+  width: 100%;
+}
+
+.categoryProducts article h3 {
+  margin: 5px 0;
+}
+
 .bodyCategory {
   background-color: rgb(212, 222, 239);
 }
 
-.sunglassesImg {
-  width: 100%;
-}
 
-.sunglasses article h3 {
-  margin: 5px 0;
-}
 
 /*  product  */
 
