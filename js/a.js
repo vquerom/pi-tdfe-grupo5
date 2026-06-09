@@ -1,11 +1,13 @@
-let mail = document.querySelector('.email')
-let contraseña = document.querySelector('.password')
-let formulario = document.querySelector('.login')
 
 
+let mail = document.querySelector("#email")
+let contraseña = document.querySelector("#password")
+let formulario = document.querySelector(".login")
+
+console.log(mail);
 
 
-formulario.addEventListener("submit", function (e) {
+formulario.addEventListener("submit", function (event) {
     e.preventDefault();
 
     if (contraseña.value == "") {
@@ -20,4 +22,5 @@ formulario.addEventListener("submit", function (e) {
     } else {
         this.sumbit()
     }
-})
+}
+)
