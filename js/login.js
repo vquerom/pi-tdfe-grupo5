@@ -1,7 +1,11 @@
 let mail = document.querySelector('.email')
 let contraseña = document.querySelector('.password')
 let formulario = document.querySelector('.login')
-
+let registroz = {
+    email: mail,
+    contraseña: contra,
+    formulario: formz
+}
 
 
 
@@ -18,6 +22,9 @@ formulario.addEventListener("submit", function (e) {
         e.preventDefault();
         alert("El campo no puede estar vacio")
     } else {
+        let regis = JSON.stringify(registroz)
+        localStorage.setItem("loginn", regis)
         this.sumbit()
     }
 })
+1
