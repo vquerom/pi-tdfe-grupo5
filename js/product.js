@@ -37,14 +37,14 @@ fetch('https://dummyjson.com/products/' + productId)
         productImage.src = data.thumbnail;
         productImage.alt = data.title;
         productCategory.innerText = data.category;
-        productCategory.href = './category.html?category=' + data.category;
+        productCategory.href = './category.html?category=' + data.category + '&title=' + data.category;
         productStock.innerText = data.stock + ' unidades disponibles';
 
         for (let i = 0; i < data.tags.length && i < 3; i++) {
 
             productTags.innerHTML += `
                 <li>
-                    <a href="./category.html?category=${data.category}">
+                    <a href="./category.html?category=${data.category}&title=${data.category}">
                         #${data.tags[i]}
                     </a>
                 </li>
@@ -54,5 +54,5 @@ fetch('https://dummyjson.com/products/' + productId)
 
     })
     .catch(function(error) {
-        console.log(error);
-    });
+    console.log('El error es: ' + error);
+});

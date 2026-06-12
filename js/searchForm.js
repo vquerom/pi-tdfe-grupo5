@@ -1,5 +1,5 @@
 let formulario = document.querySelector('.searchForm');
-let campoBusqueda = document.querySelector('input');
+let campoBusqueda = document.querySelector('.searchForm input');
 
 formulario.addEventListener('submit', function(e){
 

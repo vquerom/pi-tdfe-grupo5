@@ -1,21 +1,21 @@
 
 
-let emailUsuario = localStorage.getItem('loginn');
+let datosLogin = localStorage.getItem('login');
 
-let itemnav = document.querySelectorAll('.navigation li');
-let itemLogin = itemnav[1];
-let itemRegistro = itemnav[2];
+let itemNav = document.querySelectorAll('.navigation li');
+let itemLogin = itemNav[1];
+let itemRegistro = itemNav[2];
 
 let header = document.querySelector('header');
 
-if (emailUsuario != null) {
-
+if (datosLogin != null) {
+    let datos = JSON.parse(datosLogin)
     itemLogin.style.display = 'none';
     itemRegistro.style.display = 'none';
 
     header.innerHTML += `
         <div class="bienvenida">
-            Bienvenido: ${emailUsuario}
+            Bienvenido: ${datos.email}
             <a href="#" class="logout">logout</a>
         </div>
     `;
