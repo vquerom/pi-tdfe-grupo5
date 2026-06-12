@@ -5,7 +5,7 @@ let formulario = document.querySelector('.login')
 
 
 formulario.addEventListener("submit", function (e) {
-    e.preventDefault();
+    
 
     if (contraseña.value == "") {
         e.preventDefault();
@@ -17,12 +17,13 @@ formulario.addEventListener("submit", function (e) {
         e.preventDefault();
         alert("El campo no puede estar vacio")
     } else {
-        let regis = JSON.stringify(email)
-        localStorage.setItem("loginn", regis)
-        let regist = JSON.stringify(contraseña)
-        localStorage.setItem("loginnn", regist)}
-        let registr = JSON.stringify(formulario)
-        localStorage.setItem("loginn", registr)
+        let datos = {
+            email:mail.value,
+            contraseñ:contraseña.value
+        }
+        let datosGuardados = JSON.stringify(datos)
+        localStorage.setItem("loginn", datosGuardados)
         this.sumbit()
     }
-)
+})
+1

@@ -1,26 +1,23 @@
 
 
-let mail = document.querySelector("#email")
-let contraseña = document.querySelector("#password")
-let formulario = document.querySelector(".login")
+let emailUsuario = localStorage.getItem('loginn');
 
-console.log(mail);
+let itemnav = document.querySelectorAll('.navigation li');
+let itemLogin = itemnav[1];
+let itemRegistro = itemnav[2];
 
+let header = document.querySelector('header');
 
-formulario.addEventListener("submit", function (event) {
-    e.preventDefault();
+if (emailUsuario != null) {
 
-    if (contraseña.value == "") {
-        e.preventDefault();
-        alert("EL campo no puede estar vacio")
-    } else if ((contraseña.value.length < 6)) {
-        e.preventDefault();
-        alert("La contraseña debe tener al menos 6 caracteres")
-    } else if (mail.value == "") {
-        e.preventDefault();
-        alert("El campo no puede estar vacio")
-    } else {
-        this.sumbit()
-    }
+    itemLogin.style.display = 'none';
+    itemRegistro.style.display = 'none';
+
+    header.innerHTML += `
+        <div class="bienvenida">
+            Bienvenido: ${emailUsuario}
+            <a href="#" class="logout">logout</a>
+        </div>
+    `;
+
 }
-)
