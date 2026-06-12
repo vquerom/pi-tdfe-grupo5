@@ -26,4 +26,3 @@ formulario.addEventListener("submit", function (e) {
         this.sumbit()
     }
 })
-1
