@@ -1,6 +1,6 @@
 let categoriesList = document.querySelector('.categoriesList');
-
-fetch('https://dummyjson.com/products/categories')
+let url = 'https://dummyjson.com/products/categories';
+fetch(url)
     .then(function(response) {
         return response.json();
     })
