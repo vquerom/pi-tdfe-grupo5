@@ -1,7 +1,8 @@
 let groceriesSection = document.querySelector('.groceries');
 let kitchenSection = document.querySelector('.kitchenAccessories');
 
-fetch('https://dummyjson.com/products/category/groceries')
+let urlGroceries = 'https://dummyjson.com/products/category/groceries';
+fetch(urlGroceries)
     .then(function(response) {
         return response.json();
     })
@@ -22,11 +23,12 @@ fetch('https://dummyjson.com/products/category/groceries')
 
     })
     .catch(function(error) {
-        console.log(error);
-    });
+    console.log('El error es: ' + error);
+});
 
+let urlAccesories = 'https://dummyjson.com/products/category/kitchen-accessories';
 
-fetch('https://dummyjson.com/products/category/kitchen-accessories')
+fetch(urlAccesories)
     .then(function(response) {
         return response.json();
     })
@@ -47,5 +49,5 @@ fetch('https://dummyjson.com/products/category/kitchen-accessories')
 
     })
     .catch(function(error) {
-        console.log(error);
-    });
+    console.log('El error es: ' + error);
+});
