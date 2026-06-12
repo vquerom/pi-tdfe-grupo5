@@ -14,11 +14,11 @@ form.addEventListener('submit', function(e) {
     } else {
         let datos = {
             email: mail.value,
-            password: password.value
+            
         };
 
         let datosGuardados = JSON.stringify(datos);
-        localStorage.setItem("login", datosGuardados);
+        localStorage.setItem("loginn", datosGuardados);
 
         this.submit();
     }
