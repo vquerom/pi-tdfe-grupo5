@@ -14,8 +14,8 @@ if (botonLogout != null) {
 
         bienvenida.style.display = 'none';
 
-        itemLoginLogout.style.display = 'block';
-        itemRegistroLogout.style.display = 'block';
+        itemLoginLogout.style.display = '';
+        itemRegistroLogout.style.display = '';
 
     });
 
