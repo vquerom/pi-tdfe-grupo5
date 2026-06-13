@@ -1,9 +1,9 @@
 let botonLogout = document.querySelector('.logout');
 let bienvenida = document.querySelector('.bienvenida');
 
-let itemsnav = document.querySelectorAll('.navigation li');
-let itemLogin = itemsnav[1];
-let itemRegistro = itemsnav[2];
+let itemsnavLogout = document.querySelectorAll('.navigation li');
+let itemLoginLogout = itemsnavLogout[1];
+let itemRegistroLogout = itemsnavLogout[2];
 
 if (botonLogout != null) {
 
@@ -14,8 +14,8 @@ if (botonLogout != null) {
 
         bienvenida.style.display = 'none';
 
-        itemLogin.style.display = 'flex';
-        itemRegistro.style.display = 'flex';
+        itemLoginLogout.style.display = 'block';
+        itemRegistroLogout.style.display = 'block';
 
     });
 
