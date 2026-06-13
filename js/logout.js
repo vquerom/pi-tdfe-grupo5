@@ -10,13 +10,13 @@ if (botonLogout != null) {
     botonLogout.addEventListener('click', function(e) {
         e.preventDefault();
 
-        localStorage.removeItem('loginn');
+        localStorage.setItem('loginn');
 
         bienvenida.style.display = 'none';
 
         itemLogin.style.display = 'flex';
         itemRegistro.style.display = 'flex';
-
+        this.submit()
     });
 
 }
