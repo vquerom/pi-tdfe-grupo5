@@ -17,19 +17,19 @@ fetch('https://dummyjson.com/products/search?q=' + terminoBuscado)
             resultado.innerText = 'Resultados de búsqueda para: ' + terminoBuscado;
 
             for (let i = 0; i < data.products.length; i++) {
-                searchResults.innerHTML += `
-                    <article>
-                        <img src="${data.products[i].thumbnail}" alt="${data.products[i].title}">
-                        <h3>${data.products[i].title}</h3>
-                        <p>${data.products[i].description}</p>
-                        <p><strong>$${data.products[i].price}</strong></p>
-                        <a href="./product.html?id=${data.products[i].id}">Ver Detalle</a>
-                    </article>
-                `;
-            }
-        }
+                    searchResults.innerHTML += `
+                     <article>
+                           <img src="${data.products[i].thumbnail}" alt="${data.products[i].title}">
+                          <h3>${data.products[i].title}</h3>
+                          <p>${data.products[i].description}</p>
+                          <p><strong>$${data.products[i].price}</strong></p>
+                          <a href="./product.html?id=${data.products[i].id}">Ver Detalle</a>
+                        </article>
+                 `;
+              }
+         }
 
-    })
-    .catch(function(error) {
-        console.log(error);
-    });
+     })
+     .catch(function(error) {
+        console.log('El error es: ' + error);
+     });
