@@ -1,6 +1,7 @@
 let mail = document.querySelector('.email');
 let password = document.querySelector('.password');
-let form = document.querySelector('.login');
+let password2=document.querySelector('.password2')
+let form = document.querySelector('.reg');
 
 form.addEventListener('submit', function(e) {
     e.preventDefault();
@@ -11,6 +12,8 @@ form.addEventListener('submit', function(e) {
         alert("El campo contraseña no puede estar vacio");
     } else if (password.value.length < 6) {
         alert("La contraseña debe tener al menos 6 caracteres");
+    } else if (password.value != password2.value) {
+        alert("La contraseñas no coinciden")
     } else {
         let datos = {
             email: mail.value,
@@ -18,7 +21,7 @@ form.addEventListener('submit', function(e) {
         };
 
         let datosGuardados = JSON.stringify(datos);
-        localStorage.setItem("loginn", datosGuardados);
+        localStorage.setItem("login", datosGuardados);
 
         this.submit();
     }
