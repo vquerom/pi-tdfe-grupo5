@@ -10,7 +10,7 @@ if (botonLogout != null) {
     botonLogout.addEventListener('click', function(e) {
         e.preventDefault();
 
-        localStorage.removeItem('loginn');
+        localStorage.removeItem('login');
 
         bienvenida.style.display = 'none';
 

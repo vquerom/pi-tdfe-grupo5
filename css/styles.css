@@ -286,6 +286,7 @@ img {
 /*   ||||sunglasses category|||| */
 
 .containerCategory {
+  width: 60%;
   margin: 2px;
   margin-bottom: 3px;
   display: flex;
