@@ -1,6 +1,6 @@
 let mail = document.querySelector('.email');
 let password = document.querySelector('.password');
-let password2=document.querySelector('.password2')
+let password2 = document.querySelector('.password2')
 let form = document.querySelector('.reg');
 
 form.addEventListener('submit', function(e) {

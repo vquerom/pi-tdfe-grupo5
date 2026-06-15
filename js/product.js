@@ -48,7 +48,7 @@ fetch('https://dummyjson.com/products/' + productId)
                         #${data.tags[i]}
                     </a>
                 </li>
-            `;
+            `
 
         }
 
