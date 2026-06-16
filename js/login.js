@@ -13,14 +13,14 @@ form.addEventListener('submit', function(e) {
         alert("La contraseña debe tener al menos 6 caracteres");
     } else {
         let datos = {
-            email: mail.value,
+            email: mail.value
             
         };
 
         let datosGuardados = JSON.stringify(datos);
-        localStorage.setItem("loginn", datosGuardados);
+        localStorage.setItem("login", datosGuardados);
 
         this.submit();
     }
 
-})
+});

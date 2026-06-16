@@ -2,7 +2,7 @@ let queryString = location.search;
 let queryStringObj = new URLSearchParams(queryString);
 let terminoBuscado = queryStringObj.get('producto');
 
-let resultado = document.querySelector('.NombreResultado');
+let resultado = document.querySelector('.nombreResultado');
 let searchResults = document.querySelector('.searchResults');
 
 fetch('https://dummyjson.com/products/search?q=' + terminoBuscado)
