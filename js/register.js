@@ -14,7 +14,7 @@ form.addEventListener('submit', function(e) {
     } else if (password.value.length < 6) {
         alert("La contraseña debe tener al menos 6 caracteres");
     } else if (password.value != password2.value) {
-        alert("La contraseñas no coinciden")
+        alert("La contraseñas no coinciden");
     } else if (checkbox.checked == false) {
         alert("Debe aceptar los terminos y condiciones");
     
